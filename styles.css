@@ -1,0 +1,31 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+h1{
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+p{
+color: rgb(70, 8, 8);
+}
+/* .logo{
+position: absolute;
+top: 50px;
+left: 50px;
+background: rgb(41, 45, 162);
+width: 80%;
+padding: 60px;
+} */
+
+.box{
+padding: 20px;
+background-color: lightblue;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 680px;
+}
